@@ -1,35 +1,33 @@
 {
-  "name": "cha-bo",
-  "version": "4.2.0",
-  "description": "Chatbot",
-  "keywords": [
-    "wit",
-    "wit.ai",
-    "bot",
-    "botengine",
-    "bots",
-    "nlp",
-    "automation"
-  ],
+  "name": "getting-started-with-bots",
+  "version": "1.0.0",
+  "description": "Repo for getting started with bots",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/lib.js"
+    "dev": "supervisor index.js",
+    "ngrok": "./node_modules/ngrok/bin/ngrok http 5000"
   },
-  "repository": "https://github.com/wit-ai/node-wit",
-  "author": "Sadain Iqrar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottlabs/getting-started-with-facebook-bots.git"
+  },
+  "keywords": [
+    "bots",
+    "facebook",
+    "hubot",
+    "wit.ai"
+  ],
+  "author": "Kevin Scott",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scottlabs/getting-started-with-facebook-bots/issues"
+  },
+  "homepage": "https://github.com/scottlabs/getting-started-with-facebook-bots#readme",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
-    "uuid": "^3.0.0"
-  },
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-preset-es2015": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0",
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2",
-    "sinon": "^1.17.6"
+    "body-parser": "^1.15.0",
+    "express": "4.13.4",
+    "ngrok": "2.1.7",
+    "request": "^2.71.0",
+    "supervisor": "^0.12.0"
   }
 }
