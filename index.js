@@ -1,5 +1,5 @@
-var VERIFY_TOKEN = '<YOUR_VERIFICATION_TOKEN>';
-var PAGE_ACCESS_TOKEN = '<YOUR_PAGE_ACCESS_TOKEN>';
+var VERIFY_TOKEN = 'broadsword';
+var PAGE_ACCESS_TOKEN = 'EAAI1ZArxAZAHMBAEiAAE0vc6XaZBJlBbmVVuJIQpaIy5ZBeAUtYzsALelQRmSIA3NppkVNLnPhBVe5shKZAeDZBBfRPplN7yPjhXzbRO9ZBZBrgeS8kp9ZB9J1y8MTZCvV53Ka1WrdYdUEpuw3TpK6pRhfuSys8ye3ZAutkun7bjADsTAZDZD';
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
